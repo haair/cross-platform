@@ -15,7 +15,8 @@ class IamRich extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.amber.shade700,
           appBar: AppBar(
-            title: const Text("I am Rich",
+            title: const Text(
+              "I am Rich",
               style: TextStyle(
                 fontSize: 26,
                 fontWeight: FontWeight.bold,
@@ -24,11 +25,11 @@ class IamRich extends StatelessWidget {
             centerTitle: true,
             backgroundColor: Colors.amber.shade900,
           ),
-          body: Center(
+          body: const Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
-              children: const [
+              children: [
                 Image(
                   image: AssetImage('images/iamrich.png'),
                   width: 330,
